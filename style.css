@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Antic Slab', serif;
+  background: -webkit-linear-gradient(top, #e5baf9 , #d878a0);
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.header {
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 60%;
+  box-shadow: 0 .1rem .4rem .2rem rgb(255, 255, 255);
+  border-radius: 1rem;
+  padding-top: 2rem;
+  font-size: 2rem;
+  padding: 6rem 3rem 3rem 6rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+footer {
+  width: 100%;
+  height: 4rem;
+  position: absolute;
+  bottom: 0;
+  font-size: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
